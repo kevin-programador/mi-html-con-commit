@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+  #titulo{
+    border: 2px solid black;
+    /*viewport width*/
+    width: 60vw;
+    margin: auto;
+    padding: 2em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 3px 2em 1em 2em;
+    border-radius: 10%;
+    margin: auto;
+    align-items: center;
+  }
